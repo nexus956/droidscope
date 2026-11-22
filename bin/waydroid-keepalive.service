@@ -1,0 +1,11 @@
+[Unit]
+Description=Waydroid container keep-alive — unfreeze on interval
+Description[why]=waydroid freezes the container whenever its window loses focus; this keeps it live
+
+[Service]
+ExecStart=/bin/sh -c 'while sleep 30; do busctl call id.waydro.Container /ContainerManager id.waydro.ContainerManager Unfreeze >/dev/null 2>&1 || true; done'
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
