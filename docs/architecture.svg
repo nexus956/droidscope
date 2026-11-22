@@ -2,7 +2,7 @@
   <rect width="880" height="470" rx="12" fill="#0d1117"/>
 
   <!-- title -->
-  <text x="440" y="44" text-anchor="middle" fill="#f0f6fc" font-size="21" font-weight="700">Droidscope — Android MITM Lab</text>
+  <text x="440" y="44" text-anchor="middle" fill="#f0f6fc" font-size="21" font-weight="700">APK Traffic Capture Lab</text>
   <text x="440" y="68" text-anchor="middle" fill="#8b949e" font-size="13">near-native Android in a container · pins killed at runtime · everything in Burp</text>
 
   <!-- host box -->

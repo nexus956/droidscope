@@ -1,4 +1,4 @@
-# Droidscope — Android MITM Lab
+# APK Traffic Capture Lab
 
 ![Waydroid](https://img.shields.io/badge/waydroid-1.6.3-blue)
 ![Android](https://img.shields.io/badge/Android-13%20·%20LineageOS%2020-3fb950)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-black)
 ![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-8b949e)
 
-> **Near-native Android in a container on Linux. Any app installed, certificate pinning killed at runtime with Frida, every request decrypted in Burp.**
+> **Capture any Android app's traffic — HTTP and HTTPS, even certificate-pinned — on Linux. Rooted near-native Android in a Waydroid container, pinning killed at runtime with Frida, everything decrypted in Burp Suite.**
 
 ![architecture](docs/architecture.svg)
 
@@ -28,7 +28,7 @@ No emulator. Waydroid runs Android 13 in an LXC container on the host kernel —
 ## Quickstart (fresh Kali)
 
 ```bash
-git clone https://github.com/nexus956/droidscope && cd droidscope
+git clone https://github.com/nexus956/apk-traffic-capture git clone https://github.com/nexus956/apk-traffic-capture && cd droidscopegit clone https://github.com/nexus956/apk-traffic-capture && cd droidscope cd apk-traffic-capture
 
 ./setup/01-install-waydroid.sh     # repo + packages + binder boot config
 #   → if it says REBOOT REQUIRED: reboot, continue after login
