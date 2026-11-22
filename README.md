@@ -1,4 +1,4 @@
-# APK Traffic Capture Lab
+# MitmDroid — Android MITM Lab
 
 ![Waydroid](https://img.shields.io/badge/waydroid-1.6.3-blue)
 ![Android](https://img.shields.io/badge/Android-13%20·%20LineageOS%2020-3fb950)
@@ -28,7 +28,7 @@ No emulator. Waydroid runs Android 13 in an LXC container on the host kernel —
 ## Quickstart (fresh Kali)
 
 ```bash
-git clone https://github.com/nexus956/apk-traffic-capture git clone https://github.com/nexus956/apk-traffic-capture && cd droidscopegit clone https://github.com/nexus956/apk-traffic-capture && cd droidscope cd apk-traffic-capture
+git clone https://github.com/nexus956/mitmdroid git clone https://github.com/nexus956/mitmdroid && cd droidscopegit clone https://github.com/nexus956/mitmdroid && cd droidscope cd apk-traffic-capture
 
 ./setup/01-install-waydroid.sh     # repo + packages + binder boot config
 #   → if it says REBOOT REQUIRED: reboot, continue after login
