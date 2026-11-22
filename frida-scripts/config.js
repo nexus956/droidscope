@@ -36,8 +36,8 @@ LQgYLcL4b3GXVQUeTo83KPMHnq6TW2Hl2JY=
 -----END CERTIFICATE-----`;
 
 // Put your intercepting proxy's address here:
-const PROXY_HOST = '192.168.240.1';
-const PROXY_PORT = 8080;
+const PROXY_HOST = '192.168.100.13';
+const PROXY_PORT = 8081;
 
 // If you like, set to to true to enable extra logging:
 const DEBUG_MODE = true;

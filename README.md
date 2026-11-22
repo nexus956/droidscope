@@ -1,4 +1,4 @@
-# Waydroid Pentest Kit
+# Droidscope — Android MITM Lab
 
 Rooted **Android 13** running near-native on Linux (Kali/Debian), pre-wired for **Frida** and **Burp Suite**.
 
@@ -26,7 +26,7 @@ No emulator. Waydroid runs Android in an LXC container on the host kernel — ap
 ## Quickstart (fresh Kali)
 
 ```bash
-git clone https://github.com/nexus956/waydroid-pentest-kit && cd waydroid-pentest-kit
+git clone https://github.com/nexus956/droidscope && cd waydroid-pentest-kit
 
 ./setup/01-install-waydroid.sh     # repo + packages + binder boot config
 #   → if it says REBOOT REQUIRED: reboot, continue after login
