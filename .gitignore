@@ -1,0 +1,7 @@
+# 170MB frida-server binary — GitHub's 100MB hard limit rejects it.
+# bin/frida-server-get.sh regenerates it locally.
+bin/frida-server
+
+# runtime droppings
+*.log
+*.out
