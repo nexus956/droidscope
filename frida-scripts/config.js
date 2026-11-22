@@ -33,11 +33,10 @@ rejwlIzS1Ujh8PnWpiqDtQhj12CFKZwrtB5CUkSpzkLZhIXWLB+kDIXpspGUaMS4
 fIJ1+3HiyJcKjoGYieVmfi/qJdNyh4zONbtDmKr2sT9vkcLHPort6ghq2itUyMem
 S9UPSSO6XWSnJV8yWC0yVJqa5V7Yawrfy7EdG6yS2+uRpIQMg9g3F6Hx/qfXhZKY
 LQgYLcL4b3GXVQUeTo83KPMHnq6TW2Hl2JY=
------END CERTIFICATE-----
-`;
+-----END CERTIFICATE-----`;
 
 // Put your intercepting proxy's address here:
-const PROXY_HOST = '127.0.0.1';
+const PROXY_HOST = '192.168.240.1';
 const PROXY_PORT = 8080;
 
 // If you like, set to to true to enable extra logging:

@@ -29,8 +29,9 @@ fi
 
 case "${1:-}" in
     burp-on)
-        adb -s "$DEV" shell settings put global http_proxy 127.0.0.1:8080
-        echo "[+] container traffic -> Burp (127.0.0.1:8080 via reverse tunnel)"
+        PROXY="${2:-192.168.240.1:8080}"
+        adb -s "$DEV" shell settings put global http_proxy "$PROXY"
+        echo "[+] container traffic -> Burp ($PROXY)"
         ;;
     burp-off)
         adb -s "$DEV" shell settings put global http_proxy :0
